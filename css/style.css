@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #0e2a14;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: "Press Start 2P", monospace;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 30%, #1d5a2a 0%, #0e2a14 70%);
+}
+
+#stage {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  display: block;
+  image-rendering: pixelated;
+  touch-action: none;
+  background: #8fdcff;
+  box-shadow: 0 0 0 4px #1b3a1b, 0 0 40px rgba(0, 0, 0, .5);
+}
+
+noscript { position: fixed; top: 40%; width: 100%; text-align: center; color: #fff; }

@@ -1,0 +1,9 @@
+{
+  "name": "froggy-fly",
+  "version": "1.0.0",
+  "description": "Froggy Fly - a cute pixel frog flying game with 5 levels",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
